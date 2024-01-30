@@ -1,0 +1,68 @@
+@media screen and (min-width: 10px) {
+    .Comments{
+        height: 300px;
+        margin: 00px 15px 35px;
+        color : white;
+    }
+    .comments-container{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .indicators-container {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .indicator {
+        width: 10px;
+        height: 10px;
+        background-color: #ddd;
+        border-radius: 50%;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+    .active {
+        background-color: #2f2f2f;
+    }
+    .comments-button {
+        border: none;
+        background: none;
+        cursor: pointer;
+        font-size: large;
+        font-family: Lilita One;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    .Comments{
+        height: 250px;
+        margin: 10px 15px 60px;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .Comments{
+        height: 200px;
+        margin: 10px 25px 60px;
+    }
+    .indicators-container {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .comments-container{
+        height: 200px;
+        margin: 30px auto 30px;
+        max-width: 1024px;
+    }
+}
