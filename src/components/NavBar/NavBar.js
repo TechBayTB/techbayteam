@@ -100,8 +100,7 @@ const NavBar = () => {
                                 </div>
                             </nav>
                             <nav className="nav-responsive-line">
-                                <h2 className="nav-logo">PAULA</h2>
-                                {/*<img className="nav-logo" src={require('../../assets/logo-white.png')} alt='logo' />*/}
+                                <img className="nav-logo" src={require('../../assets/logos/black-log.png')} alt='logo' />
                                 <div className="nav-responsive-links">
                                     <div className=" toggle-responsive toggle">
                                         <ToggleLanguage />

@@ -12,12 +12,13 @@
 .bar{
     height: 3px;
     width: 100%;
-    background-color: #0997be;
+    background-color: #2f2f2f;
 }
 
 
 @media screen and (max-width: 768px) {
     .burger {
         display: flex;
+
     }
 }

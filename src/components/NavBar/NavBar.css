@@ -4,7 +4,7 @@
     position: sticky;
     background-color: white;
     z-index: 999;
-    border-bottom: 1px solid rgb(237, 237, 237);
+    border-bottom: 2px solid rgb(237, 237, 237);
     align-items: center;
 }
 
@@ -28,6 +28,13 @@
     gap: 3%;
 } 
 
+.nav-info-responsive {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
 .nav-links {
     width: 140px;
     display: flex;
@@ -35,6 +42,11 @@
     justify-content: center;
     align-items: center;
     transition: all 0.5s;
+} 
+
+.nav-links-responsive .button-nav { 
+    font-size: 17px;
+    width: 200px;
 } 
 
 .button-nav {
