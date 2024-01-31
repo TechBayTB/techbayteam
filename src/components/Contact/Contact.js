@@ -54,7 +54,7 @@ const Contact = () => {
     return (
         <>
             <div className="contact" id="contact">
-                <h2 className="whyme-title rosa">{title}</h2>
+                <h2 className="title">{title}</h2>
                 <div id="form-container">
                     <div id="form-contact">
                         {!send ?
@@ -139,7 +139,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     {loading ?
-                                        <button type='submit' disabled className='button btn-form'>
+                                        <button type='submit' disabled className='btn-form'>
                                             {language === LanguageTypes.SPANISH ? 'Enviar' : 'Send'}
                                         </button>
                                         :
