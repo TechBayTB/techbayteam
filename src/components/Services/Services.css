@@ -1,0 +1,76 @@
+.background {
+    background-color: #2f2f2f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Services .title{
+    color: white;
+}
+
+.services-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+
+@media screen and (max-width: 574.9px) {
+    .background{
+        height: 1650px;
+        margin: 150px 0px 75px;
+    }
+    .Services {
+        margin: 0px 20px;
+    }
+    .services-container{
+        flex-direction: column;
+        gap: 75px;
+        margin: 75px 0px;
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 869.9px) {
+    .background{
+        height: 1675px;
+        margin: 200px 0px 75px;
+    }
+    .Services {
+        margin: 0px 30px;
+    }
+    .services-container{
+        flex-direction: column;
+        gap: 75px;
+        margin: 75px 0px;
+    }
+}
+
+@media screen and (min-width: 870px) and (max-width: 1024px) {
+    .background{
+        height: 700px;
+        margin-bottom: 75px;
+    }
+    .Services {
+        margin: 0px 30px;
+    }
+    .services-container{
+        gap: 40px;
+        margin: 75px 0px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .background{
+        height: 700px;
+        margin-bottom: 75px;
+    }
+    .Services {
+        margin: 0px auto;
+        max-width: 1024px;
+    }
+    .services-container{
+        gap: 40px;
+        margin: 60px 0px;
+    }
+}

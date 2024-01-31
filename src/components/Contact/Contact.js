@@ -9,7 +9,7 @@ import { ContactEnglish, ContactSpanish } from './ContactText';
 const Contact = () => {
     const { language } = useContext(LanguageContext);
 
-    const title = language === LanguageTypes.SPANISH ? "Contáctame" : "Contact me";
+    const title = language === LanguageTypes.SPANISH ? "CONTACTO" : "CONTACT";
 
     const [send, setSend] = useState(false);
     const [loading, setLoading] = useState(false);
