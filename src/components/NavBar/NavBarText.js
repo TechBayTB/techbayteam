@@ -10,7 +10,7 @@ export const NavBarSpanish = [
     },
     {
         text: 'Servicios',
-        link: 'service'
+        link: 'servicios'
 
     },
     {
@@ -33,7 +33,7 @@ export const NavBarEnglish = [
     },
     {
         text: 'Services',
-        link: 'service'
+        link: 'servicios'
 
     },
     {
