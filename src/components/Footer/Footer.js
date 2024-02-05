@@ -12,73 +12,46 @@ const Footer = () => {
 
     return (
         <>
-            <footer class="footer">
-                <ul>
-                    <li>
-                        <h2>TECHBAY</h2>
-                        <p>{language === LanguageTypes.SPANISH ? FooterSpanish.text : FooterEnglish.text}</p>
-                    </li>
-                    <li>
-                        <h2>SERVICIOS</h2>
-                        <p onClick={() => handleNavigation('')}>Diseño</p>
-                        <p onClick={() => handleNavigation('')}>Desarrollo</p>
-                        <p onClick={() => handleNavigation('')}>Lanzamiento</p>
-                    </li>
-                    <li>
-                        <h2>SOBRE NOSOTROS</h2>
-                        <p onClick={() => handleNavigation('')}>¿Quienes somos?</p>
-                        <p onClick={() => handleNavigation('')}>Nuestros Clientes</p>
-                        <p onClick={() => handleNavigation('')}>Contáctanos</p>
-                    </li>
-                    <li>
-                        <h2>CONTACTO</h2>
-                        <p>techbayteam@gmail.com</p>
-                        <p>+54 9 15  5471  7868</p>
-                        <p>Buenos Aires, Argentina</p>
-                    </li>
-                </ul>
-            </footer>
-            <footer class="footer">
-                <div class="main-footer-container">
-                    <div class="main-footer">
-                        <ul class="footer-right">
-                            <li id='footerPaula'>
-                                <h2 class="footer-titles" id="h2_footer_resources">TECHBAY</h2>
-                                <ul class="footer-box">
-                                    <li><p>{language === LanguageTypes.SPANISH ? FooterSpanish.text : FooterEnglish.text}</p></li>
-                                </ul>
-                            </li>
-                            <li className='footers'>
-                                <h2 class="footer-titles" id="h2_footer_resources">SERVICIOS</h2>
-                                <ul class="footer-box">
-                                    <li><p onClick={() => handleNavigation('Translation')}>Diseño</p></li>
-                                    <li><p onClick={() => handleNavigation('Courses')} >Desarrollo</p></li>
-                                    <li><p onClick={() => handleNavigation('Firma')}>Lanzamiento</p></li>
-                                </ul>
-                            </li>
-                            <li className='footers'>
-                                <h2 class="footer-titles" id="h2_footer_us">SOBRE NOSOTROS</h2>
-                                <ul class="footer-box">
-                                    <li><p onClick={() => handleNavigation('about-me')}>¿Quienes somos?</p></li>
-                                    <li><p onClick={() => handleNavigation('education')}>Nuestros Clientes</p></li>
-                                    <li><p onClick={() => handleNavigation('contact')}>Contáctanos</p></li>
-                                </ul>
-                            </li>
-                            <li className='footers'>
-                                <h2 class="footer-titles" id="h2_footer_contact">CONTACTO</h2>
-                                <ul class="footer-box">
-                                    <li><p>techbayteam@gmail.com</p></li>
-                                    <li><p >+54 9 15  5471  7868</p></li>
-                                    <li><p>Buenos Aires, Argentina</p></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <div class="footer-bottom">
-                            <p id="rights">LOGOS</p>
-                        </div>
+            <div id='footerBackground'>
+                <div class="footer">
+                    <ul>
+                        <li id='footerTechbay'>
+                            <h2>TECHBAY</h2>
+                            <p>{language === LanguageTypes.SPANISH ? FooterSpanish.text : FooterEnglish.text}</p>
+                        </li>
+                        <li>
+                            <h2>SERVICIOS</h2>
+                            <div className='footerGrid'>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('contact')}>Consulta</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('servicios')}>Diseño</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('servicios')}>Desarrollo</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('servicios')}>Lanzamiento</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h2>SOBRE NOSOTROS</h2>
+                            <div className='footerGrid'>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('')}>¿Quienes somos?</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('')}>Misión</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('')}>Visión</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('Comments')}>Nuestros Clientes</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h2>CONTACTO</h2>
+                            <div className='footerGrid'>
+                                <p>TechBay</p>
+                                <p>+54 9 15  5471  7868</p>
+                                <p>techbayteam@gmail.com</p>
+                                <p>Buenos Aires, Argentina</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div id='footerLogos'>
+                        <p>Logos</p>
                     </div>
                 </div>
-            </footer>
+            </div>
         </>
     );
 }

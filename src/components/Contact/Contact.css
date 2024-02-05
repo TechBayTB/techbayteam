@@ -36,9 +36,7 @@
 .contact-inputs{
   border: 1px solid #2f2f2f;
   padding: 10px;
-  letter-spacing: 0.5px;
   font-weight: 400;
-  font-family: 'Montserrat';
 }
 
 .contact-inputs::placeholder {
