@@ -4,6 +4,7 @@ import Home from './components/Home/Home';
 import Comments from './components/Comments/Comments';
 import Services from './components/Services/Services';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Comments />
       <Services />
       <Contact />
+      <Footer />
     </LanguageContextProvider>
   );
 }
