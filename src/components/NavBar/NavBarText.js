@@ -5,7 +5,7 @@ export const NavBarSpanish = [
     },
     {
         text: 'Sobre Nosotros',
-        link: 'aboutme'
+        link: 'about-me'
 
     },
     {
@@ -28,7 +28,7 @@ export const NavBarEnglish = [
     },
     {
         text: 'About Us',
-        link: 'aboutme'
+        link: 'about-me'
 
     },
     {

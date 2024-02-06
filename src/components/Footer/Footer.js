@@ -20,25 +20,25 @@ const Footer = () => {
                             <p>{language === LanguageTypes.SPANISH ? FooterSpanish.text : FooterEnglish.text}</p>
                         </li>
                         <li>
-                            <h2>SERVICIOS</h2>
+                            <h2>{language === LanguageTypes.SPANISH ? FooterSpanish.title1 : FooterEnglish.title1}</h2>
                             <div className='footerGrid'>
-                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('contact')}>Consulta</p>
-                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('servicios')}>Diseño</p>
-                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('servicios')}>Desarrollo</p>
-                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('servicios')}>Lanzamiento</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('contact')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text1 : FooterEnglish.text1}</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('servicios')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text2 : FooterEnglish.text2}</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('servicios')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text3 : FooterEnglish.text3}</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('servicios')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text4 : FooterEnglish.text4}</p>
                             </div>
                         </li>
                         <li>
-                            <h2>SOBRE NOSOTROS</h2>
+                            <h2>{language === LanguageTypes.SPANISH ? FooterSpanish.title2 : FooterEnglish.title2}</h2>
                             <div className='footerGrid'>
-                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('')}>¿Quienes somos?</p>
-                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('')}>Misión</p>
-                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('')}>Visión</p>
-                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('Comments')}>Nuestros Clientes</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('about-me')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text5 : FooterEnglish.text5}</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('about-me')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text6 : FooterEnglish.text6}</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('about-me')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text7 : FooterEnglish.text7}</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('Comments')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text8 : FooterEnglish.text8}</p>
                             </div>
                         </li>
                         <li>
-                            <h2>CONTACTO</h2>
+                            <h2>{language === LanguageTypes.SPANISH ? FooterSpanish.title3 : FooterEnglish.title3}</h2>
                             <div className='footerGrid'>
                                 <p>TechBay</p>
                                 <p>+54 9 15  5471  7868</p>
