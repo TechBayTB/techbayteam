@@ -1,0 +1,45 @@
+
+
+.AboutMe p {
+    margin: 0;
+    text-align: justify;
+}
+
+@media screen and (max-width: 500px) {
+    .AboutMe {
+        padding: 0px 20px;
+        margin-bottom: 100px;
+    }
+    .AboutMe p {
+        line-height: 40px;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .AboutMe {
+        padding: 0px 20px;
+        margin-bottom: 100px;
+    }
+    .AboutMe p {
+        line-height: 40px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .AboutMe {
+        padding: 0px 30px;
+    }
+    .AboutMe p {
+        line-height: 35px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .AboutMe {
+        margin: 0 auto;
+        max-width: 1024px;
+    }
+    .AboutMe p {
+        line-height: 35px;
+    }
+}
