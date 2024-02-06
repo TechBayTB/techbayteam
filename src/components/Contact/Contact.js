@@ -90,7 +90,7 @@ const Contact = () => {
                                             {formTouched && formik.touched.email && formik.errors.email && (
                                                 <div className='formError'>{formik.errors.email}</div>
                                             )}
-                                            <textarea
+                                            <input
                                                 className="contact-inputs"
                                                 id={ContactSpanish[2].name}
                                                 name={ContactSpanish[2].name}
@@ -126,7 +126,7 @@ const Contact = () => {
                                             {formTouched && formik.touched.email && formik.errors.email && (
                                                 <div className='formError'>{formik.errors.email}</div>
                                             )}
-                                            <textarea
+                                            <input
                                                 className="contact-inputs"
                                                 id={ContactEnglish[2].name}
                                                 name={ContactEnglish[2].name}

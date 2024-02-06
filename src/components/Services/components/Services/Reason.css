@@ -26,8 +26,9 @@
 }
 
 .descrip{
-    max-width: 230px;
+    margin: 0 auto;
     font-size: 16px;
+    line-height: 25px;
     color: #747474;
 }
 
@@ -38,6 +39,9 @@
         height: 45px;
         margin: 5px;
     }
+    .descrip{
+        max-width: 100%;
+    }
 }
 
 
@@ -46,5 +50,8 @@
         width: 45px;
         height: 45px;
         margin: 15px;
+    }
+    .descrip{
+        max-width: 250px;
     }
 }
