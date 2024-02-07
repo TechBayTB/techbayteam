@@ -4,7 +4,7 @@
     position: sticky;
     background-color: white;
     z-index: 999;
-    border-bottom: 2px solid rgb(237, 237, 237);
+    border-bottom: 1px solid rgb(237, 237, 237);
     align-items: center;
 }
 
@@ -61,6 +61,7 @@
     border: none;
     cursor: pointer;
     transition: all 0.3s;
+    color: rgb(44, 44, 44);
 }
 
 .button-nav:after {
