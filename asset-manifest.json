@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/techbay/static/css/main.f99b9f65.css",
-    "main.js": "/techbay/static/js/main.890dceaf.js",
-    "static/js/787.644ff888.chunk.js": "/techbay/static/js/787.644ff888.chunk.js",
+    "main.js": "/techbay/static/js/main.be8892be.js",
+    "static/js/787.4421cf4d.chunk.js": "/techbay/static/js/787.4421cf4d.chunk.js",
     "static/media/contact.jpg": "/techbay/static/media/contact.21d83bbec552560d823e.jpg",
     "static/media/email.png": "/techbay/static/media/email.53e243129a2ca0c4830f.png",
     "static/media/fondo800.jpg": "/techbay/static/media/fondo800.ac71bdbb77ca661967b9.jpg",
@@ -16,11 +16,11 @@
     "static/media/vision.png": "/techbay/static/media/vision.58b4b98d537732307c79.png",
     "index.html": "/techbay/index.html",
     "main.f99b9f65.css.map": "/techbay/static/css/main.f99b9f65.css.map",
-    "main.890dceaf.js.map": "/techbay/static/js/main.890dceaf.js.map",
-    "787.644ff888.chunk.js.map": "/techbay/static/js/787.644ff888.chunk.js.map"
+    "main.be8892be.js.map": "/techbay/static/js/main.be8892be.js.map",
+    "787.4421cf4d.chunk.js.map": "/techbay/static/js/787.4421cf4d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f99b9f65.css",
-    "static/js/main.890dceaf.js"
+    "static/js/main.be8892be.js"
   ]
 }
