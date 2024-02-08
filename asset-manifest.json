@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/techbay/static/css/main.f99b9f65.css",
-    "main.js": "/techbay/static/js/main.be8892be.js",
-    "static/js/787.4421cf4d.chunk.js": "/techbay/static/js/787.4421cf4d.chunk.js",
-    "static/media/contact.jpg": "/techbay/static/media/contact.21d83bbec552560d823e.jpg",
-    "static/media/email.png": "/techbay/static/media/email.53e243129a2ca0c4830f.png",
-    "static/media/fondo800.jpg": "/techbay/static/media/fondo800.ac71bdbb77ca661967b9.jpg",
-    "static/media/fondo.jpg": "/techbay/static/media/fondo.4915bfeac965cd14f08a.jpg",
-    "static/media/fondo600.jpg": "/techbay/static/media/fondo600.4dce75d51df0be3ea47c.jpg",
-    "static/media/argentina.png": "/techbay/static/media/argentina.baf7e2a01dd0d7b72d82.png",
-    "static/media/fondo400.jpg": "/techbay/static/media/fondo400.50083318a2ddf3b7fed2.jpg",
-    "static/media/reino-unido.png": "/techbay/static/media/reino-unido.75e0dfa89832b6bc5c71.png",
-    "static/media/diseño.png": "/techbay/static/media/diseño.31dce501d64308280cb4.png",
-    "static/media/mision.png": "/techbay/static/media/mision.f06a701de89acb4ae978.png",
-    "static/media/vision.png": "/techbay/static/media/vision.58b4b98d537732307c79.png",
-    "index.html": "/techbay/index.html",
-    "main.f99b9f65.css.map": "/techbay/static/css/main.f99b9f65.css.map",
-    "main.be8892be.js.map": "/techbay/static/js/main.be8892be.js.map",
-    "787.4421cf4d.chunk.js.map": "/techbay/static/js/787.4421cf4d.chunk.js.map"
+    "main.css": "/techbayteam/static/css/main.1f9ebc4c.css",
+    "main.js": "/techbayteam/static/js/main.ebbcc498.js",
+    "static/js/787.644ff888.chunk.js": "/techbayteam/static/js/787.644ff888.chunk.js",
+    "static/media/contact.jpg": "/techbayteam/static/media/contact.21d83bbec552560d823e.jpg",
+    "static/media/email.png": "/techbayteam/static/media/email.53e243129a2ca0c4830f.png",
+    "static/media/fondo800.jpg": "/techbayteam/static/media/fondo800.ac71bdbb77ca661967b9.jpg",
+    "static/media/fondo.jpg": "/techbayteam/static/media/fondo.4915bfeac965cd14f08a.jpg",
+    "static/media/fondo600.jpg": "/techbayteam/static/media/fondo600.4dce75d51df0be3ea47c.jpg",
+    "static/media/argentina.png": "/techbayteam/static/media/argentina.baf7e2a01dd0d7b72d82.png",
+    "static/media/fondo400.jpg": "/techbayteam/static/media/fondo400.50083318a2ddf3b7fed2.jpg",
+    "static/media/reino-unido.png": "/techbayteam/static/media/reino-unido.75e0dfa89832b6bc5c71.png",
+    "static/media/diseño.png": "/techbayteam/static/media/diseño.31dce501d64308280cb4.png",
+    "static/media/mision.png": "/techbayteam/static/media/mision.f06a701de89acb4ae978.png",
+    "static/media/vision.png": "/techbayteam/static/media/vision.58b4b98d537732307c79.png",
+    "index.html": "/techbayteam/index.html",
+    "main.1f9ebc4c.css.map": "/techbayteam/static/css/main.1f9ebc4c.css.map",
+    "main.ebbcc498.js.map": "/techbayteam/static/js/main.ebbcc498.js.map",
+    "787.644ff888.chunk.js.map": "/techbayteam/static/js/787.644ff888.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f99b9f65.css",
-    "static/js/main.be8892be.js"
+    "static/css/main.1f9ebc4c.css",
+    "static/js/main.ebbcc498.js"
   ]
 }
