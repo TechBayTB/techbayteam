@@ -25,10 +25,17 @@ const NavBar = () => {
     useEffect(() => {
         setWidth(window.innerWidth)
     })
+
     const handleNavigation = (link) => {
         setBurgueOpen(false)
-        document.getElementById(link).scrollIntoView({ behavior: "smooth" })
-    }
+        const element = document.getElementById(link);
+        const offset = 100; // Puedes ajustar este valor según sea necesario
+        const elementPosition = element.offsetTop - offset;
+        window.scrollTo({
+            top: elementPosition,
+            behavior: "smooth"
+        });
+    };
 
     const listenToScroll = () => {
         let heightToHideFrom = 200;

@@ -37,6 +37,7 @@
   border: 1px solid #2f2f2f;
   padding: 10px;
   font-weight: 400;
+  font-family: 'Montserrat';
 }
 
 .contact-inputs::placeholder {
@@ -79,6 +80,7 @@
 }
 
 .btn-form{
+  font-family: 'Montserrat';
   color: white;
   background-color: #2f2f2f;
   font-size: 16px;  

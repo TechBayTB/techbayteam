@@ -1,0 +1,107 @@
+#background {
+    margin: 0;
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#title1 {
+    margin: 0;
+    padding-top: 70px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#title2 {
+    margin-top: 40px;
+}
+
+#title3 {
+    font-style: italic;
+}
+
+.homeTitle {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+#divHome {
+    margin-top: 30px;
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title4 {
+    font-weight: 600;
+}
+
+#homeButton {
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+#buttonIMG {
+    margin: 7px 0px;
+    width: 15px;
+    height: 15px;
+}
+
+
+@media screen and (max-width: 565.9px) {
+    #background {
+        background-image: url('../../assets/fondo400.jpg');
+    }
+    #home {
+        padding: 0px 20px;
+    }
+    #title1 {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (min-width: 566px) and (max-width: 768px) {
+    #background {
+        background-image: url('../../assets/fondo600.jpg');
+    }
+    #home {
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #background {
+        background-image: url('../../assets/fondo800.jpg');
+    }
+    #home {
+        padding: 0px 30px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    #background {
+        background-image: url('../../assets/fondo.jpg');
+    }
+    #home {
+        margin: 0 auto;
+        max-width: 1024px;
+    }
+    #title1 {
+        padding-top: 80px;
+    }
+    #title2 {
+        margin-top: 35px;
+    }
+    .homeTitle {
+        font-size: 34px;
+    }
+    #divHome {
+        margin-top: 20px;
+    }
+}
