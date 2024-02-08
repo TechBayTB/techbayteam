@@ -4,6 +4,7 @@ import Home from './components/Home/Home';
 import AboutMe from './components/AboutMe/AboutMe';
 import Comments from './components/Comments/Comments';
 import Services from './components/Services/Services';
+import Email from './components/Email/Email';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
@@ -16,6 +17,7 @@ function App() {
       <AboutMe />
       <Comments />
       <Services />
+      <Email />
       <Contact />
       <Footer />
     </LanguageContextProvider>

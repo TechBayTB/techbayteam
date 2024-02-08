@@ -1,0 +1,54 @@
+.Email p {
+    margin: 0;
+    text-align: justify;
+}
+
+#emailIMG{
+    margin: 75px auto 0px;
+    width: 500px;
+}
+
+@media screen and (max-width: 500px) {
+    .Email {
+        padding: 0px 20px;
+        margin-bottom: 100px;
+    }
+    .Email p {
+        line-height: 40px;
+    }
+    #emailIMG{
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .Email {
+        padding: 0px 20px;
+        margin-bottom: 100px;
+    }
+    .Email p {
+        line-height: 40px;
+    }
+    #emailIMG{
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .Email {
+        padding: 0px 30px;
+    }
+    .Email p {
+        line-height: 35px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .Email {
+        margin: 0 auto;
+        max-width: 1024px;
+    }
+    .Email p {
+        line-height: 35px;
+    }
+}
