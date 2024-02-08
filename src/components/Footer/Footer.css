@@ -49,6 +49,13 @@
 
 #footerLogos {
     margin-top: 35px;
+    width: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerIMG {
+    width: 25px;
 }
 
 
@@ -62,6 +69,12 @@
 @media screen and (min-width: 575px) and (max-width: 869.9px) {
     #footerBackground{
         margin: 100px 0px 0px;
+    }
+}
+
+@media screen and (min-width: 870px) and (max-width: 1024.9px) {
+    #footerLogos {
+        margin-top: 50px;
     }
 }
 
@@ -91,6 +104,6 @@
         width: 300px;
     }
     #footerLogos {
-        margin-top: 20px;
+        margin-top: 40px;
     }
 }

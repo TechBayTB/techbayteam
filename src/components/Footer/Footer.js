@@ -28,10 +28,10 @@ const Footer = () => {
                         <li>
                             <h2>{language === LanguageTypes.SPANISH ? FooterSpanish.title1 : FooterEnglish.title1}</h2>
                             <div className='footerGrid'>
-                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('contact')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text1 : FooterEnglish.text1}</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('servicios')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text1 : FooterEnglish.text1}</p>
                                 <p style={{cursor: "pointer"}} onClick={() => handleNavigation('servicios')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text2 : FooterEnglish.text2}</p>
                                 <p style={{cursor: "pointer"}} onClick={() => handleNavigation('servicios')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text3 : FooterEnglish.text3}</p>
-                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('servicios')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text4 : FooterEnglish.text4}</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('Email')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text4 : FooterEnglish.text4}</p>
                             </div>
                         </li>
                         <li>
@@ -40,7 +40,7 @@ const Footer = () => {
                                 <p style={{cursor: "pointer"}} onClick={() => handleNavigation('about-me')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text5 : FooterEnglish.text5}</p>
                                 <p style={{cursor: "pointer"}} onClick={() => handleNavigation('about-me')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text6 : FooterEnglish.text6}</p>
                                 <p style={{cursor: "pointer"}} onClick={() => handleNavigation('about-me')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text7 : FooterEnglish.text7}</p>
-                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('Comments')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text8 : FooterEnglish.text8}</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('contact')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text8 : FooterEnglish.text8}</p>
                             </div>
                         </li>
                         <li>
@@ -54,7 +54,8 @@ const Footer = () => {
                         </li>
                     </ul>
                     <div id='footerLogos'>
-                        <p>Logos</p>
+                        <a href='https://www.instagram.com/techbay.team' target='blank'><img className='footerIMG' src={require('../../assets/instagram.png')}/></a>
+                        <a href='https://www.tiktok.com/@techbay_' target='blank'><img className='footerIMG' src={require('../../assets/tiktok.png')}/></a>
                     </div>
                 </div>
             </div>
