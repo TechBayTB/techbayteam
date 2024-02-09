@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d85bc0d.css",
+    "main.css": "/static/css/main.42b9f7a6.css",
     "main.js": "/static/js/main.38e9db29.js",
     "static/js/787.644ff888.chunk.js": "/static/js/787.644ff888.chunk.js",
     "static/media/contact.jpg": "/static/media/contact.21d83bbec552560d823e.jpg",
@@ -15,12 +15,12 @@
     "static/media/mision.png": "/static/media/mision.f06a701de89acb4ae978.png",
     "static/media/vision.png": "/static/media/vision.58b4b98d537732307c79.png",
     "index.html": "/index.html",
-    "main.0d85bc0d.css.map": "/static/css/main.0d85bc0d.css.map",
+    "main.42b9f7a6.css.map": "/static/css/main.42b9f7a6.css.map",
     "main.38e9db29.js.map": "/static/js/main.38e9db29.js.map",
     "787.644ff888.chunk.js.map": "/static/js/787.644ff888.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d85bc0d.css",
+    "static/css/main.42b9f7a6.css",
     "static/js/main.38e9db29.js"
   ]
 }
