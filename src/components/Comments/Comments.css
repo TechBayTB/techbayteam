@@ -5,12 +5,12 @@
     }
     .comments-container{
         position: relative;
-        width: 350px;
+        width: 375px;
         height: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 0 auto;
+        margin: 0;
     }
     .indicators-container {
         margin-top: 30px;
@@ -47,6 +47,7 @@
     }
     .comments-container{
         width: 90%;
+        margin: 0 auto;
     }
 }
 
