@@ -5,7 +5,7 @@
     }
     .comments-container{
         position: relative;
-        width: 100%;
+        width: 90%;
         height: 100%;
         display: flex;
         justify-content: space-between;
@@ -45,12 +45,18 @@
     .Comments{
         height: 200px;
     }
+    .comments-container{
+        width: 90%;
+    }
 }
 
 @media screen and (min-width: 769px){
     .Comments{
         height: 200px;
         margin: 100px 25px 150px;
+    }
+    .comments-container{
+        width: 100%;
     }
     .indicators-container {
         margin-top: 40px;
@@ -60,6 +66,7 @@
 @media screen and (min-width: 1025px) {
     .comments-container{
         height: 200px;
+        width: 100%;
         margin: 30px auto 30px;
         max-width: 1024px;
     }
