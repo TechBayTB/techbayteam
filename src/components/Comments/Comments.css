@@ -5,7 +5,7 @@
     }
     .comments-container{
         position: relative;
-        width: 90%;
+        width: 350px;
         height: 100%;
         display: flex;
         justify-content: space-between;
