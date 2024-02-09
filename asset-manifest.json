@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/techbayteam/static/css/main.1f9ebc4c.css",
-    "main.js": "/techbayteam/static/js/main.ebbcc498.js",
-    "static/js/787.644ff888.chunk.js": "/techbayteam/static/js/787.644ff888.chunk.js",
-    "static/media/contact.jpg": "/techbayteam/static/media/contact.21d83bbec552560d823e.jpg",
-    "static/media/email.png": "/techbayteam/static/media/email.53e243129a2ca0c4830f.png",
-    "static/media/fondo800.jpg": "/techbayteam/static/media/fondo800.ac71bdbb77ca661967b9.jpg",
-    "static/media/fondo.jpg": "/techbayteam/static/media/fondo.4915bfeac965cd14f08a.jpg",
-    "static/media/fondo600.jpg": "/techbayteam/static/media/fondo600.4dce75d51df0be3ea47c.jpg",
-    "static/media/argentina.png": "/techbayteam/static/media/argentina.baf7e2a01dd0d7b72d82.png",
-    "static/media/fondo400.jpg": "/techbayteam/static/media/fondo400.50083318a2ddf3b7fed2.jpg",
-    "static/media/reino-unido.png": "/techbayteam/static/media/reino-unido.75e0dfa89832b6bc5c71.png",
-    "static/media/diseño.png": "/techbayteam/static/media/diseño.31dce501d64308280cb4.png",
-    "static/media/mision.png": "/techbayteam/static/media/mision.f06a701de89acb4ae978.png",
-    "static/media/vision.png": "/techbayteam/static/media/vision.58b4b98d537732307c79.png",
-    "index.html": "/techbayteam/index.html",
-    "main.1f9ebc4c.css.map": "/techbayteam/static/css/main.1f9ebc4c.css.map",
-    "main.ebbcc498.js.map": "/techbayteam/static/js/main.ebbcc498.js.map",
-    "787.644ff888.chunk.js.map": "/techbayteam/static/js/787.644ff888.chunk.js.map"
+    "main.css": "/static/css/main.a33c3535.css",
+    "main.js": "/static/js/main.2ee757ee.js",
+    "static/js/787.644ff888.chunk.js": "/static/js/787.644ff888.chunk.js",
+    "static/media/contact.jpg": "/static/media/contact.21d83bbec552560d823e.jpg",
+    "static/media/email.png": "/static/media/email.53e243129a2ca0c4830f.png",
+    "static/media/fondo800.jpg": "/static/media/fondo800.ac71bdbb77ca661967b9.jpg",
+    "static/media/fondo.jpg": "/static/media/fondo.4915bfeac965cd14f08a.jpg",
+    "static/media/fondo600.jpg": "/static/media/fondo600.4dce75d51df0be3ea47c.jpg",
+    "static/media/argentina.png": "/static/media/argentina.baf7e2a01dd0d7b72d82.png",
+    "static/media/fondo400.jpg": "/static/media/fondo400.50083318a2ddf3b7fed2.jpg",
+    "static/media/reino-unido.png": "/static/media/reino-unido.75e0dfa89832b6bc5c71.png",
+    "static/media/diseño.png": "/static/media/diseño.31dce501d64308280cb4.png",
+    "static/media/mision.png": "/static/media/mision.f06a701de89acb4ae978.png",
+    "static/media/vision.png": "/static/media/vision.58b4b98d537732307c79.png",
+    "index.html": "/index.html",
+    "main.a33c3535.css.map": "/static/css/main.a33c3535.css.map",
+    "main.2ee757ee.js.map": "/static/js/main.2ee757ee.js.map",
+    "787.644ff888.chunk.js.map": "/static/js/787.644ff888.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f9ebc4c.css",
-    "static/js/main.ebbcc498.js"
+    "static/css/main.a33c3535.css",
+    "static/js/main.2ee757ee.js"
   ]
 }
