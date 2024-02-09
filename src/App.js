@@ -7,6 +7,7 @@ import Services from './components/Services/Services';
 import Email from './components/Email/Email';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import './index.css'
 
 
 function App() {

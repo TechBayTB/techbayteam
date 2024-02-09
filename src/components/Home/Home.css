@@ -101,7 +101,12 @@
     .homeTitle {
         font-size: 34px;
     }
+}
+
+@media screen and (max-width: 566px) {
     #divHome {
         margin-top: 20px;
+        justify-content: center;
+        gap: 10px;
     }
 }

@@ -43,6 +43,10 @@
     .descrip{
         max-width: 100%;
     }
+    .reason-container{
+        padding: 50px 40px;
+        height: auto;
+    }
 }
 
 

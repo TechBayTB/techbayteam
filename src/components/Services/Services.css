@@ -17,7 +17,6 @@
 
 @media screen and (max-width: 669.9px) {
     .background{
-        height: 1575px;
         margin: 150px 0px 75px;
         padding-top: 70px;
     }
@@ -28,13 +27,11 @@
         flex-direction: column;
         gap: 75px;
         margin: 75px 0px;
-        height: 300px;
     }
 }
 
 @media screen and (min-width: 670px) and (max-width: 869.9px) {
     .background{
-        height: 1500px;
         margin: 200px 0px 75px;
         padding-top: 50px;
     }
@@ -45,13 +42,11 @@
         flex-direction: column;
         gap: 75px;
         margin: 75px 0px;
-        height: 300px;
     }
 }
 
 @media screen and (min-width: 870px) and (max-width: 1024px) {
     .background{
-        height: 700px;
         margin-bottom: 75px;
         justify-content: center;
     }
@@ -66,7 +61,6 @@
 
 @media screen and (min-width: 1025px) {
     .background{
-        height: 700px;
         margin-bottom: 75px;
         justify-content: center;
     }
