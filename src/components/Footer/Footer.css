@@ -62,7 +62,14 @@
 @media screen and (max-width: 574.9px) {
     #footerBackground{
         margin: 100px 0px 0px;
-        height: 1050px;
+        height: 1425px;
+    }
+    .footerGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #footerLogos {
+        margin-top: 50px;
     }
 }
 

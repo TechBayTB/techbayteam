@@ -47,15 +47,15 @@ const Footer = () => {
                             <h2>{language === LanguageTypes.SPANISH ? FooterSpanish.title3 : FooterEnglish.title3}</h2>
                             <div className='footerGrid'>
                                 <p>TechBay</p>
-                                <p>+54 9 15  5471  7868</p>
+                                <p>+54 9 11 2182 6464</p>
                                 <p>techbayteam@gmail.com</p>
                                 <p>Buenos Aires, Argentina</p>
                             </div>
                         </li>
                     </ul>
                     <div id='footerLogos'>
-                        <a href='https://www.instagram.com/techbay.team' target='blank'><img className='footerIMG' src={require('../../assets/instagram.png')}/></a>
-                        <a href='https://www.tiktok.com/@techbay_' target='blank'><img className='footerIMG' src={require('../../assets/tiktok.png')}/></a>
+                        <a href='https://www.instagram.com/techbay.team' target='blank'><img className='footerIMG' src={require('../../assets/instagram.png')} alt='ig'/></a>
+                        <a href='https://www.tiktok.com/@techbay_' target='blank'><img className='footerIMG' src={require('../../assets/tiktok.png')} alt='tiktok'/></a>
                     </div>
                 </div>
             </div>

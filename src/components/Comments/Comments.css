@@ -10,7 +10,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 0 auto;
+        margin: 0;
     }
     .indicators-container {
         margin-top: 30px;
@@ -28,15 +28,15 @@
         background-color: #2f2f2f;
     }
     .comments-button {
-        color: black;
+        color: #2f2f2f;
         border: none;
         background: none;
         cursor: pointer;
         font-size: large;
-        font-family: Lilita One;
+        font-family: 'Lilita One', sans-serif;
         font-size: 30px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: bolder;
         line-height: normal;
     }
 }
@@ -45,12 +45,19 @@
     .Comments{
         height: 200px;
     }
+    .comments-container{
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width: 769px){
     .Comments{
         height: 200px;
         margin: 100px 25px 150px;
+    }
+    .comments-container{
+        width: 100%;
     }
     .indicators-container {
         margin-top: 40px;
@@ -60,6 +67,7 @@
 @media screen and (min-width: 1025px) {
     .comments-container{
         height: 200px;
+        width: 100%;
         margin: 30px auto 30px;
         max-width: 1024px;
     }
